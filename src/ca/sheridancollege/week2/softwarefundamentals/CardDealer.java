@@ -23,6 +23,6 @@ public class CardDealer
         
         
         //Print: Created in GitHub
-        System.out.println(ace.getSuit);
+        System.out.println(ace.getSuit());
     }
 }
