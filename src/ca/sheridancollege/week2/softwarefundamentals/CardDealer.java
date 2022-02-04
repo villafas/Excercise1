@@ -14,15 +14,18 @@ public class CardDealer
 {
     public static void main(String[] args)
     {
-        Card nineClubs = new Card("Clbs", 9);
-        nineClubs.setSuit("diamonds");
+        Card nineClubs = new Card("Clubs", 9);
+        nineClubs.setSuit("Diamonds");
         
         //First Object: Created in NetBeans
         Card ace = new Card("Ace", 1);
         ace.setSuit("Spades");
         
-        
         //Print: Created in GitHub
         System.out.println(ace.getSuit());
+        
+        //Second Object: Created after fetch+merge
+        Card twoHearts = new Card("<3", 2);
+        twoHearts.setSuit("Hearts");
     }
 }
