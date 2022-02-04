@@ -6,8 +6,9 @@
 package ca.sheridancollege.week2.softwarefundamentals;
 
 /**
- * The class where we create Cards
- * @author dancye, 2019
+ * Name: Sebastian Villafane Ramos
+ * Email: villafas@sheridancollege.ca
+ * Student ID: 99164202
  */
 public class CardDealer 
 {
@@ -15,5 +16,9 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        Card ace = new Card("Ace", 1);
+        ace.setSuit("Spades");
+        
     }
 }
