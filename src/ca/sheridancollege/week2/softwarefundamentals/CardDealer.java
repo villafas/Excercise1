@@ -17,8 +17,12 @@ public class CardDealer
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
         
+        //First Object: Created in NetBeans
         Card ace = new Card("Ace", 1);
         ace.setSuit("Spades");
         
+        
+        //Print: Created in GitHub
+        System.out.println(ace.getSuit);
     }
 }
